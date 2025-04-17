@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>OtakuRate</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>✨ OtakuRate - 애니 리뷰 모음 ✨</h1>
+
+  <div class="review-form">
+    <input type="text" id="title" placeholder="애니 제목">
+    <textarea id="comment" placeholder="리뷰를 작성하세요"></textarea>
+    <input type="number" id="rating" placeholder="평점 (1~10)" min="1" max="10">
+    <button onclick="addReview()">리뷰 등록</button>
+  </div>
+
+  <div id="reviews"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
